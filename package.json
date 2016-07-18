@@ -2,11 +2,11 @@
   "author": "Amir Raminfar <findamir@gmail.com>",
   "name": "phantom",
   "description": "PhantomJS integration module for NodeJS",
-  "homepage": "https://github.com/amir20/phantomjs-node",
+  "homepage": "https://github.com/bios21/phantomjs-node",
   "version": "2.1.12",
   "repository": {
     "type": "git",
-    "url": "git://github.com/amir20/phantomjs-node.git"
+    "url": "git://github.com/bios21/phantomjs-node.git"
   },
   "contributors": [
     {
@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "linerstream": "^0.1.4",
-    "phantomjs-prebuilt": "^2.1.4",
+    "phantomjs-prebuilt": "git://github.com/bios21/phantomjs.git",
     "winston": "^2.2.0"
   },
   "devDependencies": {
